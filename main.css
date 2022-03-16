@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #292929;
+  background-color: #0000FF;
   margin-left:auto;
   margin-right:auto;
 }
@@ -94,7 +94,7 @@
 body {
   background-color: #292929;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 991px) {
   .home-body-spacing {
     height: 8vw;
   }
