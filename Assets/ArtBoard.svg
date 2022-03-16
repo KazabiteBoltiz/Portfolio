@@ -15,10 +15,10 @@
       </g>
       <rect id="Rectangle_87" data-name="Rectangle 87" width="291" height="56" rx="2" transform="translate(476 866)" fill="#292c32"/>
       <rect id="Rectangle_88" data-name="Rectangle 88" width="192" height="158" rx="33" transform="translate(526 601)" fill="#292c32"/>
-      <text id="_UI_ART_" data-name="~UI/ART~" transform="translate(622 907)" fill="#58ffb2" font-size="41" font-family="Bahnschrift" font-weight="700"><tspan x="-84.402" y="0">~</tspan><tspan y="0" text-decoration="underline">UI/ART</tspan><tspan y="0">~</tspan></text>
+      <text id="_UI_ART_" data-name="~UI/ART~" transform="translate(622 907)" fill="#58ffb2" font-size="41" font-family="Bahnschrift" src = "Bahnschrift.ttf" font-weight="700"><tspan x="-84.402" y="0">~</tspan><tspan y="0" text-decoration="underline">UI/ART</tspan><tspan y="0">~</tspan></text>
       <text id="My_Work" data-name="My
 
-Work" transform="translate(622 852)" fill="#292c32" font-size="43" font-family="Bahnschrift" font-weight="600"><tspan x="-27.137" y="0">My</tspan><tspan x="0" y="37"></tspan><tspan x="0" y="74"></tspan><tspan x="-49.519" y="111">Work</tspan></text>
+Work" transform="translate(622 852)" fill="#292c32" font-size="43" font-family="Bahnschrift" src = "Bahnschrift.ttf" font-weight="600"><tspan x="-27.137" y="0">My</tspan><tspan x="0" y="37"></tspan><tspan x="0" y="74"></tspan><tspan x="-49.519" y="111">Work</tspan></text>
       <path id="Path_378" data-name="Path 378" d="M1522.034,1502.031h230.328" transform="translate(-1015.053 -705.75)" fill="none" stroke="#292c32" stroke-linecap="round" stroke-width="15"/>
       <g id="Group_54" data-name="Group 54" transform="translate(473.797 -206.885) rotate(30)">
         <g id="Path_384" data-name="Path 384" transform="matrix(0.574, -0.819, 0.819, 0.574, 506.571, 716.707)" fill="none">
