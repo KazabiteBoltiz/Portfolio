@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444" height="584" viewBox="0 0 444 584">
+  <defs>
+    <clipPath id="clip-CodingBoard">
+      <rect width="444" height="584"/>
+    </clipPath>
+  </defs>
+  <g id="CodingBoard" clip-path="url(#clip-CodingBoard)">
+    <g id="Group_56" data-name="Group 56" transform="translate(-977 -467.5)">
+      <g id="Group_52" data-name="Group 52" transform="translate(565 -13)">
+        <path id="Union_52" data-name="Union 52" d="M-2225-1808v-399a39,39,0,0,1,39-39h360a39,39,0,0,1,39,39v399l-219,107Z" transform="translate(2640 2761)" fill="#346b9a"/>
+        <g id="Union_53" data-name="Union 53" transform="translate(2640 2731)" fill="#55b0ff">
+          <path d="M -2006.000122070313 -1726.0419921875 L -2202.499755859375 -1822.048950195313 L -2202.499755859375 -1846.999877929688 L -2202.499755859375 -2206.999755859375 C -2202.499755859375 -2216.09765625 -2195.09814453125 -2223.49951171875 -2186.000244140625 -2223.49951171875 L -1826.000122070313 -2223.49951171875 C -1816.902221679688 -2223.49951171875 -1809.50048828125 -2216.09765625 -1809.50048828125 -2206.999755859375 L -1809.50048828125 -1914.751831054688 L -1809.50048828125 -1822.048950195313 L -2006.000122070313 -1726.0419921875 Z" stroke="none"/>
+          <path d="M -2006.000122070313 -1751.083862304688 L -1832.00048828125 -1836.09765625 L -1832.00048828125 -1914.751831054688 L -1832.00048828125 -2200.99951171875 L -2179.999755859375 -2200.99951171875 L -2179.999755859375 -1846.999877929688 L -2179.999755859375 -1836.09765625 L -2006.000122070313 -1751.083862304688 M -2006.000122070313 -1701 L -2224.999755859375 -1808.000122070313 L -2224.999755859375 -1846.999877929688 L -2224.999755859375 -2206.999755859375 C -2224.999755859375 -2228.53857421875 -2207.5390625 -2245.99951171875 -2186.000244140625 -2245.99951171875 L -1826.000122070313 -2245.99951171875 C -1804.461303710938 -2245.99951171875 -1787.00048828125 -2228.53857421875 -1787.00048828125 -2206.999755859375 L -1787.00048828125 -1914.751831054688 L -1787.00048828125 -1808.000122070313 L -2006.000122070313 -1701 Z" stroke="none" fill="#428ac8"/>
+        </g>
+      </g>
+      <rect id="Rectangle_78" data-name="Rectangle 78" width="291" height="56" rx="2" transform="translate(1053 809)" fill="#292c32"/>
+      <text id="_Scripting_" data-name="~Scripting~" transform="translate(1199 850)" fill="#55b0ff" font-size="41" font-family="Bahnschrift" font-weight="700"><tspan x="-121.258" y="0">~</tspan><tspan y="0" text-decoration="underline">SCRIPTING</tspan><tspan y="0">~</tspan></text>
+      <text id="My_Work" data-name="My
+
+Work" transform="translate(1199 795)" fill="#292c32" font-size="43" font-family="Bahnschrift" font-weight="600"><tspan x="-27.137" y="0">My</tspan><tspan x="0" y="37"></tspan><tspan x="0" y="74"></tspan><tspan x="-49.519" y="111">Work</tspan></text>
+      <path id="Path_375" data-name="Path 375" d="M1522.034,1502.031h230.328" transform="translate(-438.053 -762.75)" fill="none" stroke="#292c32" stroke-linecap="round" stroke-width="15"/>
+      <rect id="Rectangle_81" data-name="Rectangle 81" width="192" height="158" rx="33" transform="translate(1103 544)" fill="#292c32"/>
+      <g id="Group_46" data-name="Group 46" transform="translate(1137.052 561.383)">
+        <path id="Path_366" data-name="Path 366" d="M1577.306,1516.279l-27.753,30.442,27.753,31.165" transform="translate(-1549.552 -1485.671)" fill="none" stroke="#55b0ff" stroke-width="15"/>
+        <path id="Path_367" data-name="Path 367" d="M1549.552,1516.279l27.753,30.442-27.753,31.165" transform="translate(-1455.251 -1485.671)" fill="none" stroke="#55b0ff" stroke-width="15"/>
+        <path id="Path_371" data-name="Path 371" d="M45.175,0,0,82.055" transform="matrix(0.985, -0.174, 0.174, 0.985, 31.591, 25.353)" fill="none" stroke="#55b0ff" stroke-linecap="round" stroke-width="10"/>
+      </g>
+    </g>
+  </g>
+</svg>
