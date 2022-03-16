@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Blanka";
+  src : url("https://drive.google.com/uc?export=download&id=1LuhBFRVf-_Zhjds6lYVydAq10ZPmg5zL")
+}
+
 .home-container {
   width: 70vw;
   height: 1400px;
@@ -93,6 +98,7 @@
 }
 body {
   background-color: #292929;
+  font-family: Blanka;
 }
 @media only screen and (max-width: 991px) {
   .home-body-spacing {
