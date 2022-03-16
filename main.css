@@ -11,6 +11,8 @@
   background-color: #292929;
   margin-left:auto;
   margin-right:auto;
+  border-width: 2px;
+  border-style: solid;
 }
 .home-header {
   width: auto;
@@ -94,7 +96,7 @@
 body {
   background-color: #292929;
 }
-@media only screen and (max-width: 150px) {
+@media only screen and (max-width: 1500px) {
   .home-body-spacing {
     height: 8vw;
   }
