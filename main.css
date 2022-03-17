@@ -53,8 +53,9 @@
 .home-image1 {
   width: 100%;
   object-fit: cover;
-  font-family: "Bahnschrift";
-  src : url("https://drive.google.com/uc?export=download&id=1MoWn6YaJUNd51_ADnMiODfgZjkwW9bHz")
+  display: flex;   
+  justify-content: center;
+  text-align:center
 }
 .home-col-spacing {
   flex: 0 0 auto;
