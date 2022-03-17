@@ -2,17 +2,31 @@
     0% {
         opacity: 0;
         stroke-opacity: 0;
-        transform: translateY(10%);
+        transform: translateY(-30%) translateX(-50%) scale(2);
     }
     100% {
-        transform: translateY(0);
+        transform: translateY(-50%) translateX(-50%) scale(2);
+        opacity: 1;
+        stroke-opacity: 1;
+    }
+  }
+  @keyframes columnEntryHeader {
+    0% {
+        opacity: 0;
+        stroke-opacity: 0;
+        transform: translateY(30%);
+    }
+    100% {
+        transform: translateY(0%) ;
         opacity: 1;
         stroke-opacity: 1;
     }
   }
 
+
+
 #Header {
-    animation: .2s ease 0s 1 columnEntry;
+    animation: .5s ease 0s 1 columnEntryHeader;
 }
 
 #CodeBoardContainer, #SFXBoardContainer, #ArtBoardContainer{
@@ -23,15 +37,23 @@
 }
 
 #CodeBoardContainer, #SFXBoardContainer, #ArtBoardContainer{
-    transform: translateY(0%);
+    transform: translateY(-50%) translateX(-50%) scale(2) ;
     fill-opacity: 1;
     stroke-opacity: 1;
 }
 
 #CodeBoardContainer:hover, #SFXBoardContainer:hover, #ArtBoardContainer:hover{
-    transform: translateY(-8%);
+    transform: translateY(-59%) translateX(-50%) scale(2);
 }
 
-#CodeBoardContainer:active {
-    transform: translateX(-100%);
+#ArtBoardContainer:active #ArtBody{
+    transform: translateY(3%);
+}
+
+#SFXBoardContainer:active #SFXBody{
+    transform: translateY(3%);
+}
+
+#CodeBoardContainer:active #CodeBody{
+    transform: translateY(3%);
 }
