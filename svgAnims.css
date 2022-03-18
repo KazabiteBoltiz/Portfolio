@@ -1,4 +1,73 @@
-<script>
-<!-- code by https://www.html-code-generator.com -->
-document.write(unescape('@keyframes%20columnEntry%20%7B%0A%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20opacity%3A%200%3B%0A%20%20%20%20%20%20%20%20stroke-opacity%3A%200%3B%0A%20%20%20%20%20%20%20%20transform%3A%20translateY%28-30%25%29%20translateX%28-50%25%29%20scale%282%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translateY%28-50%25%29%20translateX%28-50%25%29%20scale%282%29%3B%0A%20%20%20%20%20%20%20%20opacity%3A%201%3B%0A%20%20%20%20%20%20%20%20stroke-opacity%3A%201%3B%0A%20%20%20%20%7D%0A%7D%0A@keyframes%20columnEntryHeader%20%7B%0A%20%20%20%200%25%20%7B%0A%20%20%20%20%20%20%20%20opacity%3A%200%3B%0A%20%20%20%20%20%20%20%20stroke-opacity%3A%200%3B%0A%20%20%20%20%20%20%20%20transform%3A%20translateY%2830%25%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20100%25%20%7B%0A%20%20%20%20%20%20%20%20transform%3A%20translateY%280%25%29%20%3B%0A%20%20%20%20%20%20%20%20opacity%3A%201%3B%0A%20%20%20%20%20%20%20%20stroke-opacity%3A%201%3B%0A%20%20%20%20%7D%0A%7D%0A%23Header%20%7B%0A%20%20%20%20animation%3A%20.5s%20ease%200s%201%20columnEntryHeader%3B%0A%7D%0A%0Asvg%20text%7B%0A%20%20%20%20-webkit-user-select%3A%20none%3B%0A%20%20%20%20-moz-user-select%3A%20none%3B%0A%20%20%20%20-ms-user-select%3A%20none%3B%0A%20%20%20%20user-select%3A%20none%3B%0A%7D%0A%0Asvg%20%7B%0A%20%20%20%20width%3A%20200%25%3B%0A%20%20%20%20height%3A%20200%25%3B%0A%7D%0A%0A%23CodeBoardContainer%2C%20%23SFXBoardContainer%2C%20%23ArtBoardContainer%7B%0A%20%20%20%20animation%3A%20.6s%20ease%200s%201%20columnEntry%3B%0A%20%20%20%20transition%3A%20.15s%20ease-in%3B%0A%20%20%20%20display%3A%20block%3B%0A%20%20%20%20margin%3A%20auto%3B%0A%7D%0A%0A%23CodeBoardContainer%2C%20%23SFXBoardContainer%2C%20%23ArtBoardContainer%7B%0A%20%20%20%20transform%3A%20translateY%28-50%25%29%20translateX%28-50%25%29%20scale%282%29%20%3B%0A%20%20%20%20fill-opacity%3A%201%3B%0A%20%20%20%20stroke-opacity%3A%201%3B%0A%7D%0A%0A%23CodeBoardContainer%3Ahover%2C%20%23SFXBoardContainer%3Ahover%2C%20%23ArtBoardContainer%3Ahover%7B%0A%20%20%20%20transform%3A%20translateY%28-59%25%29%20translateX%28-50%25%29%20scale%282%29%3B%0A%7D%0A%0A%23ArtBody%2C%20%23SFXBody%2C%20%23CodeBody%20%7B%0A%20%20%20%20transition%3A%20.02s%20ease-in%3B%0A%7D%0A%0A%23ArtBoardContainer%3Aactive%20%23ArtBody%7B%0A%20%20%20%20transform%3A%20translateY%283%25%29%3B%0A%7D%0A%0A%23SFXBoardContainer%3Aactive%20%23SFXBody%7B%0A%20%20%20%20transform%3A%20translateY%283%25%29%3B%0A%7D%0A%0A%23CodeBoardContainer%3Aactive%20%23CodeBody%7B%0A%20%20%20%20transform%3A%20translateY%283%25%29%3B%0A%7D%0A%0A'))
-</script>
+@keyframes columnEntry {
+    0% {
+        opacity: 0;
+        stroke-opacity: 0;
+        transform: translateY(-30%) translateX(-50%) scale(2);
+    }
+    100% {
+        transform: translateY(-50%) translateX(-50%) scale(2);
+        opacity: 1;
+        stroke-opacity: 1;
+    }
+}
+@keyframes columnEntryHeader {
+    0% {
+        opacity: 0;
+        stroke-opacity: 0;
+        transform: translateY(30%);
+    }
+    100% {
+        transform: translateY(0%) ;
+        opacity: 1;
+        stroke-opacity: 1;
+    }
+}
+#Header {
+    animation: .5s ease 0s 1 columnEntryHeader;
+}
+
+svg text{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+svg {
+    width: 200%;
+    height: 200%;
+}
+
+#CodeBoardContainer, #SFXBoardContainer, #ArtBoardContainer{
+    animation: .6s ease 0s 1 columnEntry;
+    transition: .15s ease-in;
+    display: block;
+    margin: auto;
+}
+
+#CodeBoardContainer, #SFXBoardContainer, #ArtBoardContainer{
+    transform: translateY(-50%) translateX(-50%) scale(2) ;
+    fill-opacity: 1;
+    stroke-opacity: 1;
+}
+
+#CodeBoardContainer:hover, #SFXBoardContainer:hover, #ArtBoardContainer:hover{
+    transform: translateY(-59%) translateX(-50%) scale(2);
+}
+
+#ArtBody, #SFXBody, #CodeBody {
+    transition: .02s ease-in;
+}
+
+#ArtBoardContainer:active #ArtBody{
+    transform: translateY(3%);
+}
+
+#SFXBoardContainer:active #SFXBody{
+    transform: translateY(3%);
+}
+
+#CodeBoardContainer:active #CodeBody{
+    transform: translateY(3%);
+}
+
